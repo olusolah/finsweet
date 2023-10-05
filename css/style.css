@@ -224,6 +224,7 @@ input {
     width: 65%;
     margin-top: 15px;
     font-size: 15px;
+    line-height: 25px;
 }
 
 .content h3 {
@@ -482,8 +483,8 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 }
 
 #get-a-quote .container .left {
-    /* padding: 20px 0; */
-    height: 80%;
+    margin-bottom: 80px;
+    height: 70%;
 }
 
 #get-a-quote .container .right {
