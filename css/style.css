@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid yellow;
 }
 
 /* header styling */
@@ -795,7 +796,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
 #about-our-service .base .two-arrows {
     display: flex;
-    padding-left: 168%;
+    padding-left: 160%;
     padding-top: 10px;
 }
 
@@ -927,13 +928,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     width: 100%;
 }
 
-#footer-section .second-row .base-footer {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-}
-
-
 #footer-section .second-row .base-footer nav ul {
     border: none;
     /* padding-right: 20px; */
@@ -944,6 +938,12 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     color: #ffffff;
     border: none;
     font-family: 'Manrope';
+}
+
+#footer-section .second-row .base-footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #footer-section .second-row .base-footer .copyright {
@@ -993,7 +993,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
 
     .header-container {
-        width: 100%;
         padding: 10px;
         flex-direction: column;
     }
@@ -1046,6 +1045,8 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 95%;
+
     }
 
     main .container .main-left .content {
@@ -1217,6 +1218,11 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         font-size: 20px;
     }
 
+    #what-we-offer .learn {
+        margin: 20px 0;
+        padding: 0;
+    }
+
     /* get in touch */
   
     #get-in-touch {
@@ -1263,6 +1269,23 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
       #get-in-touch .second-row .container .one h1 {
         font-size: 25px;
       }
+
+      /* about-our-service */
+
+    #about-our-service .base .two-arrows {
+        padding: 0;
+    }
+
+    /* footer-section */
+    #footer-section .second-row .base-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-section .second-row .base-footer .copyright {
+        /* padding-right: 0; */
+        /* font-size: 12; */
+    }
 
   }
 
@@ -1358,6 +1381,8 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        border: 2px solid red;
+        width: 95%;
     }
 
     main .container .main-left .content {
@@ -1525,6 +1550,10 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     /* what we offer */
 
+    #what-we-offer {
+        background-color: aqua;
+    }
+
     #what-we-offer .container .contents h5 {
         font-size: 12px;
         margin-top: 20px;
@@ -1545,8 +1574,13 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         width: 150px;
     }
 
-    #what-we-offer .container .contents .what-we-offer-cards .card h4 {
+    #what-we-offer .container .what-we-offer-cards .card h4 {
         font-size: 12px;
+    }
+
+    #what-we-offer .learn {
+        margin: 20px 0;
+        padding: 0;
     }
   
     /* get in touch */
@@ -1611,13 +1645,24 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         font-size: 20px;
       }
 
-    /* #what-we-offer .container .contents .what-we-offer-cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        justify-content: center;
-    } */
+    /* about-our-service */
 
+    #about-our-service .base .two-arrows {
+        padding: 0;
+    }
+
+    /* footer-section */
+    #footer-section .second-row .base-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-section .second-row .base-footer .copyright {
+        /* padding-right: 0; */
+        /* font-size: 12; */
+    }
+
+    
   }
   
 
