@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid yellow;
 }
 
 /* header styling */
@@ -1381,7 +1380,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid red;
         width: 95%;
     }
 
@@ -1411,7 +1409,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
 
     main .container .right-img .right-img-down {
-        background-color: aqua;
         display: none;
     }
   
@@ -1549,10 +1546,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
 
     /* what we offer */
-
-    #what-we-offer {
-        background-color: aqua;
-    }
 
     #what-we-offer .container .contents h5 {
         font-size: 12px;
