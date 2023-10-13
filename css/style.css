@@ -964,7 +964,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     main .container {
         flex-direction: column;
-
     }
 
     .container {
@@ -994,6 +993,12 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     .header-container {
         padding: 10px;
         flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .header-container .right-contact .icon {
+        font-size: 20px;
+        padding: 18px;
     }
 
     .header-container .logo img {
@@ -1016,7 +1021,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     nav ul li {
       font-size: 20px;
     }
-  
+
     nav .right-contact .right-contact-icon {
       width: 22px;
       height: 22px;
@@ -1043,9 +1048,9 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         z-index: 100;
         display: flex;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         width: 95%;
-
+        padding: 0 30px;
     }
 
     main .container .main-left .content {
@@ -1055,7 +1060,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     main .container .main-left .content h1 {
         font-size: 60px;
         color: #ffffff;
-        text-align: center;
+        text-align: left;
     }
 
     main .container .time-left .time-right-up {
@@ -1082,18 +1087,15 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #car-servicing .container .left h1 {
         font-size: 50px;
         width: 100%;
-        text-align: center;
     }
 
     #car-servicing .container .left .service-row-1 {
         display: flex;
         column-gap: 10px;
         margin-top: -20px;
-        /* background-color: aqua; */
     }
 
     #car-servicing .container .left .service-row-1 .service-left .service-left-left .service-left-left-icon {
-        /* background-color: aqua; */
         font-size: 25px;
         padding: 20px;
     }
@@ -1130,7 +1132,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #car-servicing .container .right h2 {
         font-size: 40px;
-        text-align: center;
         width: 100%;
     }
 
@@ -1139,7 +1140,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
 
     #car-servicing .container .right .btn {
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         margin-bottom: 20px;
     }
@@ -1148,13 +1149,42 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #get-a-quote .container {
         flex-direction: column;
+        width: 100%;
+    }
 
+    
+    #get-a-quote .container .left {
+        display: flex;
+    }
+    
+    #get-a-quote .container .left h1 {
+        font-size: 50px;
+        width: 70%;
+        /* text-align: center; */
+    }
+    
+    #get-a-quote .container .left h5 {
+        font-size: 20px;
+        width: 70%;
+        /* text-align: center; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #get-a-quote .container .btn button {
+        padding: 8px 20px;
+        margin-top: 15px;
+        font-size: 15px;
     }
 
     #get-a-quote .container .right {
         width: 100%;
         padding-left: 0;
-        margin-top: 30px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #get-a-quote .container .right .content h3 {
@@ -1166,33 +1196,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         font-size: 20px;
         line-height: 35px;
     }
-
-    #get-a-quote .container .left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #get-a-quote .container .left h1 {
-        font-size: 50px;
-        width: 100%;
-        text-align: center;
-    }
-
-    #get-a-quote .container .left h5 {
-        font-size: 20px;
-        width: 100%;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    #get-a-quote .container .btn button {
-        padding: 8px 20px;
-        margin-top: 15px;
-        font-size: 15px;
-    }
-
+    
     /* what we offer */
 
     #what-we-offer .container .contents h5 {
@@ -1201,10 +1205,11 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #what-we-offer .container .offer h1 {
         font-size: 50px;
+        width: 80%;
     }
 
     #what-we-offer .container .contents .what-we-offer-cards {
-        gap: 30px;
+        gap: 5px;
     }
 
     #what-we-offer .container .contents .what-we-offer-cards .card {
@@ -1329,11 +1334,21 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     .header-container {
       width: 100%;
       padding: 10px;
+      padding-left: 40px;
       flex-direction: column;
     }
 
     .header-container .logo img {
         width: 60%;
+    }
+
+    .header-container .right-contact {
+        padding-right: 50px;
+    }
+
+    .header-container .right-contact .icon {
+        font-size: 12px;
+        padding: 12px;
     }
   
     header h1 {
@@ -1379,8 +1394,9 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         z-index: 100;
         display: flex;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         width: 95%;
+        padding: 0 20px;
     }
 
     main .container .main-left .content {
@@ -1390,7 +1406,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     main .container .main-left .content h1 {
         font-size: 35px;
         color: #ffffff;
-        text-align: center;
+        text-align: left;
         line-height: 50px;
     }
 
@@ -1425,7 +1441,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #car-servicing .container .left h1 {
         font-size: 30px;
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
         line-height: 50px;
         margin-top: 20px;
     }
@@ -1453,10 +1469,10 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #car-servicing .container .left .service-row-2 .know-more {
         display: flex;
-        justify-content: center;
         align-items: center;
         width: 100%;
         margin-top: -20px;
+        padding-left: 40px;
     }
 
     #car-servicing .container .left .service-row-2 .know-more .know-more-left h5 {
@@ -1465,7 +1481,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #car-servicing .container .right h2 {
         font-size: 20px;
-        text-align: center;
+        /* text-align: center; */
         width: 100%;
         margin-top: -30px;
     }
@@ -1479,7 +1495,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
 
     #car-servicing .container .right .btn {
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         margin-top: -10px;
         margin-bottom: 20px;
@@ -1493,13 +1509,57 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #get-a-quote .container {
         flex-direction: column;
+        width: 100%;
     }
 
+    
+    #get-a-quote .container .left {
+        display: flex;
+    }
+    
+    #get-a-quote .container .left h1 {
+        font-size: 30px;
+        width: 80%;
+        text-align: left;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    
+    #get-a-quote .container .left h5 {
+        font-size: 12px;
+        width: 100%;
+        text-align: left;
+    }
+    
+    #get-a-quote .container .btn button {
+        padding: 2px 10px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
     #get-a-quote .container .right {
         width: 100%;
         padding-left: 0;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #get-a-quote .container .right .row-1 {
+        gap: 0;
+    }
+
+    .item-2 {
+        padding: 10px 0px 10px 20px;
+    }    
+
+    #get-a-quote .container .right .row-1 .items .item-1 img {
+        width: 70%;
+    }
+
+    #get-a-quote .container .right .row-1 .items .item-2 img {
+        height: 1px;
     }
 
     #get-a-quote .container .right .content h3 {
@@ -1509,6 +1569,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #get-a-quote .container .right .content h5 {
         width: 100%;
         font-size: 12px;
+        line-height: 30px;
     }
 
     #get-a-quote .container .right .row-1 .items .item-2 img {
@@ -1517,32 +1578,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     .bottom {
         margin-bottom: 20px;
-    }
-
-    #get-a-quote .container .left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #get-a-quote .container .left h1 {
-        font-size: 30px;
-        width: 100%;
-        text-align: center;
-        line-height: 50px;
-        margin-top: 20px;
-    }
-
-    #get-a-quote .container .left h5 {
-        font-size: 12px;
-        width: 100%;
-        text-align: center;
-    }
-
-    #get-a-quote .container .btn button {
-        padding: 2px 10px;
-        margin-top: 15px;
-        font-size: 10px;
     }
 
     /* what we offer */
@@ -1555,16 +1590,17 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #what-we-offer .container .offer h1 {
         font-size: 30px;
         line-height: 50px;
+        width: 100%;
     }
 
     #what-we-offer .container .contents .what-we-offer-cards {
-        gap: 30px;
+        gap: 5px;
     }
 
     #what-we-offer .container .contents .what-we-offer-cards .card {
         background-color: white;
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 160px;
     }
 
     #what-we-offer .container .what-we-offer-cards .card h4 {
