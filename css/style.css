@@ -702,12 +702,32 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 }
 
 #brand .brand-main .item-one {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+
+#brand .brand-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #brand .brand-main .brand-items {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+#brand .brand-main .brand-items .div-1 {
+    display: flex;
+}
+
+#brand .brand-main .brand-items .div-2 {
+    display: flex;
+}
+
+#brand .brand-main .item-5 .div-1 {
+    display: flex;
+    flex-direction: column;
 }
 
 /* about our service */
@@ -844,6 +864,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 #questions .box .box-1 .box-row h5 {
     font-weight: 600;
     /* font-size: 15px; */
+    font-size: 18px;
 }
 
 #questions .box .box-1 h6 {
@@ -852,6 +873,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     width: 73%;
     color: #939191;
     line-height: 18px;
+    font-size: 12px;
 }
 
 #questions .box .box-2 {
@@ -1231,55 +1253,213 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
   
     #get-in-touch {
         height: auto;
-      }
+    }
     
       #get-in-touch .first-row {
         flex-direction: column;
         height: auto;
-      }
+    }
     
-      #get-in-touch .first-row .left-car {
+    #get-in-touch .first-row .left-car {
         width: 100%;
         height: 30vh;
-      }
+    }
     
-      #get-in-touch .first-row .right-car {
+    #get-in-touch .first-row .right-car {
         height: 30vh;
         width: 100%;
-      }
+    }
     
-      #get-in-touch .second-row {
+    #get-in-touch .second-row {
         display: flex;
         height: auto;
-      }
+    }
     
-      #get-in-touch .second-row .container {
+    #get-in-touch .second-row .container {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         column-gap: 50px;
         margin-bottom: 30px;
-      }
+    }
 
-      #get-in-touch .second-row .container .one {
+    #get-in-touch .second-row .container .one {
         text-align: center;
-      }
+    }
   
-      #get-in-touch .second-row .container .one h4 {
+    #get-in-touch .second-row .container .one h4 {
         font-size: 20px;
-      }
+    }
     
-      #get-in-touch .second-row .container .one h1 {
+    #get-in-touch .second-row .container .one h1 {
         font-size: 25px;
-      }
+    }
 
-      /* about-our-service */
+    /* brand */
+
+    #brand {
+        height: auto;
+    }
+
+    #brand h2 {
+        margin-top: 40px;
+    }
+      
+    #brand .brand-main {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    
+    #brand .brand-main .brand-items {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #brand .brand-main .brand-items .div-1 {
+        display: flex;
+        margin-top: -30px;
+    }
+    
+    #brand .brand-main .brand-items .div-2 {
+        display: flex;
+        margin-top: -30px;
+    }
+    
+    #brand .brand-main .item-5 .div-1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+
+    .item-one img {
+        width: 100%;
+    }
+
+    /* about-our-service */
+
+    #about-our-service {
+        height: auto;
+    }
+
+    #about-our-service h2 {
+        width: 80%;
+        margin-top: 30px;
+    }
 
     #about-our-service .base .two-arrows {
         padding: 0;
     }
 
+    #about-our-service .container {
+        column-gap: 20px;
+        /* background-color: red; */
+        margin-top: -20px;
+    }
+    
+    #about-our-service .container .left {
+        height: 400px;
+    }
+    
+    #about-our-service .container .left .top {
+        display: flex;
+        gap: 10px;
+        padding-right: 130px;
+        /* padding-left: 100px; */
+        justify-content: center;
+    }
+    
+    #about-our-service .container .left .top .right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #about-our-service .container .left .top .right-content h5 {
+        font-weight: 600;
+    }
+    
+    #about-our-service .container .left .top .right-content h6 {
+        color: #939191;
+    }
+    
+    #about-our-service .container .left .bottom {
+        width: 80%;
+        margin-top: 20px;
+        /* padding-right: 50px; */
+    }
+    
+    #about-our-service .container .left .bottom h5 {
+        font-weight: 600;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    
+    #about-our-service .base {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    #about-our-service .base .scroll {
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+        padding: 0 0 0 70px;
+    }
+    
+    #about-our-service .base .scroll .scroll-1 {
+        height: 3px;
+        width: 25px;
+        background-color: #939191;
+    }
+    
+    #about-our-service .base .scroll .scroll-3 {
+        background-color: #FF6433;
+    }
+    
+    #about-our-service .base .two-arrows {
+        display: flex;
+        padding-left: 95%;
+        padding-top: 10px;
+    }
+    
+    #about-our-service .base .two-arrows .arrow-1 {
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+    
+    #about-our-service .base .two-arrows .arrow-2 {
+        background-color: #000000;
+    }
+
+    /* questions */
+
+    #questions {
+        height: auto;
+    }
+
+    #questions h2 {
+        margin-top: 30px;
+    }
+
+    #questions .box {
+        margin-bottom: 30px;
+    }
+
+    #questions .box .box-1 .box-row h5 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    #questions .box .box-1 h6 {
+        font-size: 12px;
+    }
+    
     /* footer-section */
     #footer-section .second-row .base-footer {
         display: flex;
@@ -1645,39 +1825,204 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #get-in-touch .second-row {
         display: flex;
         height: auto;
-      }
+    }
     
-      #get-in-touch .second-row .container {
+    #get-in-touch .second-row .container {
         width: 100%;
         margin-bottom: 30px;
-      }
+    }
 
-      #get-in-touch .second-row .container .professional {
+    #get-in-touch .second-row .container .professional {
         display: flex;
         column-gap: 30px;
-      }
+    }
 
-      #get-in-touch .second-row .container .customer {
+    #get-in-touch .second-row .container .customer {
         display: flex;
         column-gap: 30px;
-      }
+    }
   
-      #get-in-touch .second-row .container .one {
+    #get-in-touch .second-row .container .one {
         text-align: center;
-      }
+    }
   
-      #get-in-touch .second-row .container .one h4 {
+    #get-in-touch .second-row .container .one h4 {
         font-size: 15px;
-      }
+    }
     
-      #get-in-touch .second-row .container .one h1 {
+    #get-in-touch .second-row .container .one h1 {
         font-size: 20px;
-      }
+    }
+
+    /* brand */
+
+    #brand {
+        height: auto;
+    }
+
+    #brand h2 {
+        margin-top: 20px;
+    }
+      
+    #brand .brand-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #brand .brand-main .brand-items {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #brand .brand-main .brand-items .div-1 {
+        display: flex;
+        margin-top: -30px;
+    }
+    
+    #brand .brand-main .brand-items .div-2 {
+        display: flex;
+        margin-top: -30px;
+    }
+    
+    #brand .brand-main .item-5 .div-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item-one img {
+        width: 80%;
+    }
 
     /* about-our-service */
 
+    #about-our-service {
+        height: auto;
+    }
+
+    #about-our-service h2 {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #about-our-service .container {
+        column-gap: 20px;
+        /* background-color: red; */
+        margin-top: -20px;
+    }
+    
+    #about-our-service .container .left {
+        height: 350px;
+    }
+    
+    #about-our-service .container .left .top {
+        display: flex;
+        gap: 10px;
+        padding-right: 130px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    #about-our-service .container .left .top .right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #about-our-service .container .left .top .right-content h5 {
+        font-weight: 600;
+    }
+    
+    #about-our-service .container .left .top .right-content h6 {
+        color: #939191;
+    }
+    
+    #about-our-service .container .left .bottom {
+        width: 80%;
+        margin-top: 20px;
+        /* padding-right: 50px; */
+    }
+    
+    #about-our-service .container .left .bottom h5 {
+        font-weight: 600;
+        line-height: 40px;
+        font-size: 15px;
+    }
+    
+    #about-our-service .base {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    #about-our-service .base .scroll {
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+        padding: 0 0 0 70px;
+    }
+    
+    #about-our-service .base .scroll .scroll-1 {
+        height: 3px;
+        width: 25px;
+        background-color: #939191;
+    }
+    
+    #about-our-service .base .scroll .scroll-3 {
+        background-color: #FF6433;
+    }
+    
     #about-our-service .base .two-arrows {
-        padding: 0;
+        display: flex;
+        padding-left: 18%;
+        padding-top: 10px;
+    }
+    
+    #about-our-service .base .two-arrows .arrow-1 {
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+    
+    #about-our-service .base .two-arrows .arrow-2 {
+        background-color: #000000;
+    }
+
+    /* questions */
+
+    #questions {
+        height: auto;
+    }
+
+    #questions h2 {
+        margin-top: 30px;
+    }
+
+    #questions .box {
+        margin-bottom: 30px;
+    }
+
+    #questions .box .box-1 {
+        height: 200px;
+        width: 80%;
+        background-color: #ffffff;
+        padding: 25px;
+    }
+    
+    #questions .box .box-1 .box-row h5 {
+        font-size: 15px;
+    }
+    
+    #questions .box .box-1 h6 {
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    #questions .box .box-2 {
+        height: 90px;
+        width: 80%;
+        background-color: #ffffff;
+        padding: 25px;
     }
 
     /* footer-section */
