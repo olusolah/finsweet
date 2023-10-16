@@ -890,6 +890,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #222020;
 }
 
 #footer-section .first-row  {
@@ -913,7 +914,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
 #footer-section .first-row .container .left h2 {
     color: #ffffff;
-    width: 60%;
+    width: 100%;
 }
 
 #footer-section .first-row .container .left .media {
@@ -1358,6 +1359,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         column-gap: 20px;
         /* background-color: red; */
         margin-top: -20px;
+        width: 80%;
     }
     
     #about-our-service .container .left {
@@ -1367,9 +1369,10 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #about-our-service .container .left .top {
         display: flex;
         gap: 10px;
-        padding-right: 130px;
+        padding-right: 85px;
         /* padding-left: 100px; */
         justify-content: center;
+
     }
     
     #about-our-service .container .left .top .right-content {
@@ -1401,6 +1404,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #about-our-service .base {
         display: flex;
         margin-bottom: 30px;
+        padding-right: 65px;
     }
     
     #about-our-service .base .scroll {
@@ -1421,7 +1425,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
     
     #about-our-service .base .two-arrows {
-        display: flex;
+        display: none;
         padding-left: 95%;
         padding-top: 10px;
     }
@@ -1461,16 +1465,47 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
     
     /* footer-section */
+
+    #footer-section {
+        height: auto;
+        background-color: #222020;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    #footer-section .first-row {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 80%; */
+        width: 100%;
+        padding-left: 65px;
+    }
+
+    #footer-section .first-row .container .left h2 {
+        width: 100%;
+    }
+
+    #footer-section .second-row {
+        display: none;
+    }
+
     #footer-section .second-row .base-footer {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+
+    #footer-section .second-row .base-footer .logo img {
+        width: 40%;
     }
 
     #footer-section .second-row .base-footer .copyright {
         /* padding-right: 0; */
         /* font-size: 12; */
     }
-
   }
 
 /* responsiveness for mobile */
@@ -1867,6 +1902,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     #brand .brand-main {
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
     
     #brand .brand-main .brand-items {
@@ -1890,7 +1926,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
 
     .item-one img {
-        width: 80%;
+        width: 70%;
     }
 
     /* about-our-service */
@@ -1909,16 +1945,20 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         column-gap: 20px;
         /* background-color: red; */
         margin-top: -20px;
+        justify-content: center;
+        align-items: center;
     }
     
     #about-our-service .container .left {
         height: 350px;
+        /* background-color: aqua; */
+        width: 80%;
     }
     
     #about-our-service .container .left .top {
         display: flex;
         gap: 10px;
-        padding-right: 130px;
+        padding-right: 80px;
         margin-top: 30px;
         justify-content: center;
     }
@@ -1951,7 +1991,8 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     
     #about-our-service .base {
         display: flex;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        padding-right: 65px;
     }
     
     #about-our-service .base .scroll {
@@ -1972,7 +2013,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
     
     #about-our-service .base .two-arrows {
-        display: flex;
+        display: none;
         padding-left: 18%;
         padding-top: 10px;
     }
@@ -2025,14 +2066,80 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
         padding: 25px;
     }
 
+    .car-repair {
+        width: 80%;
+    }
+
     /* footer-section */
+
+    #footer-section {
+        background-color: #222020;
+    }
+
+    #footer-section .first-row {
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #footer-section .first-row .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;    
+    }
+
+    #footer-section .first-row .container .left {
+    }
+
+    #footer-section .first-row .container .left h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #footer-section .first-row .container .left .media {
+        margin-top: 30px;
+    }
+
+    #footer-section .first-row .container .right {
+    }
+
+    #footer-section .first-row .container .right h5 {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    #footer-section .first-row .container .right h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    #footer-section .second-row {
+        display: flex;
+    }
+
     #footer-section .second-row .base-footer {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    #footer-section .second-row .base-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-section .second-row .base-footer .logo img {
+        width: 60%;
+    }
+
+    #footer-section .second-row .base-footer .logo nav ul li h5 {
+        font-size: 12px;
     }
 
     #footer-section .second-row .base-footer .copyright {
-        /* padding-right: 0; */
+        padding-right: 35px;
         /* font-size: 12; */
     }
 
