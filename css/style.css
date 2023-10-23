@@ -8,12 +8,11 @@
 
 header {
     width: 100%;
-    position: fixed;
+    position: fixed; 
     z-index: 50;
     background-color: #ffffff;
-    /* box-shadow: 1px 1px 5px 1px#E1E1E16E; */
+    box-shadow: 1px 1px 5px 2px#E1E1E16E;
 }
-
 
 nav {
     display: flex;
