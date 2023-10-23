@@ -161,6 +161,12 @@ p {
     width: 51%;
 }
 
+.know-more a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
 form {
     margin-top: 15px;
     display: flex;
@@ -304,6 +310,11 @@ input {
     justify-content: center;
     /* align-items: center; */
     background-color: #f2f2f2;
+}
+
+.learn-left a {
+    text-decoration: none;
+    color: #000000;
 }
 
 /* end of global styling */
@@ -747,7 +758,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 }
 
 #about-our-service .container {
-    height: 40%;
+    height: 50%;
     column-gap: 30px;
 }
 
@@ -800,7 +811,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     display: flex;
     margin-top: 30px;
     gap: 10px;
-    padding: 0 0 0 70px;
+    padding: 0 0 0 80px;
 }
 
 #about-our-service .base .scroll .scroll-1 {
@@ -974,7 +985,6 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     color: #888686;
 }
 
-/* footer section */
 .footer-bg {
     background-color: black;
 }
@@ -1363,7 +1373,7 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
     }
     
     #about-our-service .container .left {
-        height: 400px;
+        height: 450px;
     }
     
     #about-our-service .container .left .top {
@@ -2140,10 +2150,9 @@ main .container .right-img .right-img-down-all .flex .flex-2 {
 
     #footer-section .second-row .base-footer .copyright {
         padding-right: 35px;
-        /* font-size: 12; */
+        font-size: 12px;
     }
 
-    
   }
   
 
